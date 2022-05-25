@@ -16,23 +16,26 @@
     <section id="fsection">
     <h1>For Investors</h1>
 
-    <div class="fsection-grid">
+    <div class="fsection-grid-container">
 
     <div class="grid-box1">
-
-    </div>
+        <video src="src/video/#.mp4"></video>
+    </div><!-- Video Box -->
 
     <div class="grid-box2">
 
-    </div>
+    </div><!-- Text Carousel -->
 
     <div class="grid-box3">
+        <h2>Quick Numbers</h2>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div><!-- Numbers -->
 
-    </div>
-    
     <div class="grid-box4">
 
-    </div>
+    </div><!-- PDF -->
 
     </div><!-- First Section Grid -->
     
