@@ -1,6 +1,6 @@
 /* Import Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 /* Fonts */
 /* Colors */
 /* Import other Scss files */
@@ -38,16 +38,40 @@ header {
   #fsection .grid-box1, #fsection .grid-box2 {
     border: 2px solid black;
     height: 50vh; }
+  #fsection #text-carousel {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 37vh;
+    border: 2px solid black; }
   #fsection .grid-box3 h2 {
     text-align: center; }
-  #fsection .grid-box3 div {
+  #fsection .grid-box3 > div {
     width: 33%;
-    height: 5vh;
-    background-color: red;
+    height: 15vh;
+    border-radius: 3%;
+    background-color: #001f46;
     border: 1px solid black;
     float: left;
     margin-left: 2px;
-    margin-top: 20px; }
+    margin-top: 60px; }
+  #fsection .grid-box3 div h3 {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 28px; }
+  #fsection #number {
+    font-family: "Open Sans", sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 2%; }
+  #fsection .grid-box3 div p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 2%; }
   #fsection .grid-box3, #fsection .grid-box4 {
     border: 2px solid black;
     height: 33vh; }

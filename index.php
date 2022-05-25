@@ -23,14 +23,28 @@
     </div><!-- Video Box -->
 
     <div class="grid-box2">
+        <div id="text-carousel">
 
+        </div>
     </div><!-- Text Carousel -->
 
     <div class="grid-box3">
         <h2>Quick Numbers</h2>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>
+           <h3>Sample</h3> 
+           <div id="number">100</div>
+           <p>Text</p>
+        </div>
+        <div>
+            <h3>Sample</h3> 
+            <div id="number">100</div>
+            <p>Text</p>
+        </div>
+        <div>
+            <h3>Sample</h3> 
+            <div id="number">100</div>
+            <p>Text</p>
+        </div>
     </div><!-- Numbers -->
 
     <div class="grid-box4">
