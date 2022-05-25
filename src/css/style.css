@@ -1,0 +1,41 @@
+/* Import Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+/* Fonts */
+/* Colors */
+/* Import other Scss files */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box; }
+
+header {
+  width: 100%;
+  height: 7vh;
+  background-color: #2853A1;
+  position: relative; }
+
+#fsection {
+  width: 100%;
+  height: 93vh;
+  background-color: red; }
+  #fsection h1 {
+    font-family: "Raleway", sans-serif;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 0.2%;
+    font-size: 30px; }
+  #fsection .fsection-grid {
+    display: grid;
+    padding: 10px;
+    grid-gap: 10px;
+    background-color: yellow;
+    grid-template-areas: "grid-box1 grid-box1" "grid-box2 grid-box2" "grid-box3 grid-box3" "grid-box4 grid-box4"; }
+  #fsection .grid-box1, #fsection .grid-box2, #fsection .grid-box3, #fsection .grid-box4 {
+    background-color: deeppink;
+    width: 100%;
+    height: 41vh; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); //Raleway
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); //Open Sans
+
+
+/* Fonts */
+$font-title: 'Raleway', sans-serif;
+$font-text: 'Open Sans', sans-serif;
+
+
+/* Colors */
+$color-primary: #2853A1;
+$color-secondary: #acacad;
+$color-white: #FFFFFF;
+$color-footer: #001f46;
+$color-button: #4fb55e;
+$color-alternative: #7fa4d7;
+
+
+/* Import other Scss files */
+@import '_reset.scss';
+@import '_header.scss';
+@import '_fsection.scss';
