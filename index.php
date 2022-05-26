@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lifeline Robotics - For investors</title>
     <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/core.js"></script>
 </head>
 <body>
     <header>
 
-
+    <a href="#"><img src="src/img/logo.png" alt="Logo"></a>
 
     </header>  
 
@@ -48,11 +49,16 @@
     </div><!-- Numbers -->
 
     <div class="grid-box4">
-
+        <h3>If you want to see more, then check out our Pitch Deck!</h3>
+        <button>PDF</button>
     </div><!-- PDF -->
 
     </div><!-- First Section Grid -->
     
+    </section>
+
+    <section id="secsection">
+
     </section>
 
     <footer>
