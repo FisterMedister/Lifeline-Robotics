@@ -57,10 +57,6 @@
     
     </section>
 
-    <section id="secsection">
-
-    </section>
-
     <footer>
 
     </footer>
