@@ -52,7 +52,7 @@ include 'conn.php';
 
     <div class="grid-box4">
         <h3>If you want to see more, then check out our Pitch Deck!</h3>
-        <button>PDF</button>
+        <button><img src="src/img/pdf-file.png" alt="PDF"></button>
     </div><!-- PDF -->
 
     </div><!-- First Section Grid -->

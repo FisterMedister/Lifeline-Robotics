@@ -94,10 +94,16 @@
         float: left;
         margin-top: 8%;
         margin-left: 10%;
+        background-color: $color-footer ;
+        border: 0;
+    }
+
+    .grid-box4 button > img {
+        width: 55%;
     }
 
     .grid-box4 button:hover {
-        background-color: $color-footer;
         cursor: pointer;
+        opacity: 90%;
     }
 }
