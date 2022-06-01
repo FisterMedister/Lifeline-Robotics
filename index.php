@@ -13,7 +13,9 @@
     <a href="#"><img src="src/img/logo.png" alt="Logo"></a>
 
     </header>  
-
+<?php 
+include 'conn.php';
+?>
     <section id="fsection">
     <h1>For Investors</h1>
 
