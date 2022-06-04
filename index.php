@@ -26,9 +26,32 @@ include 'conn.php';
     </div><!-- Video Box -->
 
     <div class="grid-box2">
+
         <div id="text-carousel">
+            <div class="PSlides">
+            <p>Nordic Startup Awards, finalists in the category "Best Newcomer"</p>
+            <p>-2020</p>
+            </div>
+
+             <div class="PSlides" style="display: none">
+            <p>Got shortlisted for a #danishdesignaward2021 in the category of "Visionary Concepts"</p>
+            <p>-2021</p>
+            </div>
+
+             <div class="PSlides" style="display: none">
+            <p>Got nominated for the #NordicStartupAwards in the categories of Best Newcomer and Startup of the Year</p>
+            <p>-2021</p>
+            </div>
 
         </div>
+          <!-- Next/prev buttons -->
+             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+             <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="dot-container">
+             <span class="dot" onclick="currentSlide(1)"></span>
+             <span class="dot" onclick="currentSlide(2)"></span>
+             <span class="dot" onclick="currentSlide(3)"></span>
+        </div><!-- dots -->
     </div><!-- Text Carousel -->
 
     <div class="grid-box3">
