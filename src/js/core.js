@@ -1,7 +1,7 @@
 console.log("It's Working!");
 
 
-
+// NICK
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -25,6 +25,29 @@ function showSlides(n) {
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
-}
+    slides[slideIndex -1].style.display = "block";
+    dots[slideIndex -1].className += " active";
+};
+// NICK
+
+// STEFAN
+const counters = document.querySelectorAll(".count");
+const speed = 200;
+
+counters.forEach((counter) => {
+    const updateCount = () => {
+        const target = parseInt(+counter.getAttribute("data-target"));
+        const count = parseInt(+counter.innerText);
+        const increment = Math.trunc(target / speed);
+        //console.log(increment);
+
+        if(count < target) {
+            counter.innerText = count + increment;
+            setTimeout(updateCount, 1);
+        } else {
+            count.innerText = target;
+        }
+    };
+    updateCount();
+});
+// STEFAN

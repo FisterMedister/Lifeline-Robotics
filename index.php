@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lifeline Robotics - For investors</title>
     <link rel="stylesheet" href="src/css/style.css">
-    <script src="src/js/core.js"></script>
+    <script src="src/js/core.js" defer></script>
 </head>
 <body>
     <header>
@@ -22,7 +22,9 @@ include 'conn.php';
     <div class="fsection-grid-container">
 
     <div class="grid-box1">
-        <video src="src/video/#.mp4"></video>
+        <video controls autoplay muted
+        src="src/video/lifeline_animation.mp4" autoplay="true" type="video/mp4" 
+        video>
     </div><!-- Video Box -->
 
     <div class="grid-box2">
@@ -57,25 +59,25 @@ include 'conn.php';
     <div class="grid-box3">
         <h2>Quick Numbers</h2>
         <div>
-           <h3>Sample</h3> 
-           <div id="number">100</div>
+           <h3>Since year</h3> 
+           <h4 class="count" data-target="2020">0</h4>
            <p>Text</p>
         </div>
         <div>
-            <h3>Sample</h3> 
-            <div id="number">100</div>
+            <h3>Tractions</h3> 
+            <h4 class="count" data-target="33">0</h4>
             <p>Text</p>
         </div>
         <div>
             <h3>Sample</h3> 
-            <div id="number">100</div>
+            <h4 class="count" data-target="8000">0</h4>
             <p>Text</p>
         </div>
     </div><!-- Numbers -->
 
     <div class="grid-box4">
         <h3>If you want to see more, then check out our Pitch Deck!</h3>
-        <button><img src="src/img/pdf-file.png" alt="PDF"></button>
+        <a href="src/pdf/pitch_deck.pdf"><button><img src="src/img/pdf.png" alt="PDF"></button></a>
     </div><!-- PDF -->
 
     </div><!-- First Section Grid -->

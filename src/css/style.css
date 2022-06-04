@@ -37,14 +37,30 @@ header {
     grid-template-columns: 1fr 50%;
     grid-template-areas: "grid-box1 grid-box1" "grid-box2 grid-box2" "grid-box3 grid-box3" "grid-box4 grid-box4"; }
   #fsection .grid-box1, #fsection .grid-box2 {
-    border: 2px solid black;
     height: 50vh; }
+  #fsection .grid-box1 video {
+    width: 80%;
+    margin-left: 5rem;
+    margin-top: 1.8rem;
+    border-radius: 10px; }
   #fsection #text-carousel {
     width: 90%;
     margin-left: 5%;
     margin-top: 5%;
     height: 37vh;
-    border: 2px solid black; }
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #2853A1; }
+  #fsection #text-carousel p:first-child {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 17%; }
+  #fsection #text-carousel p:last-child {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%; }
   #fsection .grid-box3 h2 {
     text-align: center; }
   #fsection .grid-box3 > div {
@@ -61,7 +77,7 @@ header {
     text-align: center;
     margin-top: 2%;
     font-size: 28px; }
-  #fsection #number {
+  #fsection .count {
     font-family: "Open Sans", sans-serif;
     color: #FFFFFF;
     text-align: center;
@@ -73,11 +89,10 @@ header {
     font-size: 20px;
     margin-top: 2%; }
   #fsection .grid-box3, #fsection .grid-box4 {
-    border: 2px solid black;
     height: 33vh; }
   #fsection .grid-box4 h3 {
     margin-top: 15%;
-    margin-left: 4%;
+    margin-left: 6%;
     float: left; }
   #fsection .grid-box4 button {
     width: 150px;
@@ -93,6 +108,52 @@ header {
   #fsection .grid-box4 button:hover {
     cursor: pointer;
     opacity: 90%; }
+
+/* grid-box2 */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px; }
+
+.prev:hover, .next:hover {
+  background-color: #7fa4d7;
+  color: white; }
+
+.prev {
+  margin-left: 2.5%; }
+
+.next {
+  margin-right: 3.1%; }
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 38%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 3px 3px 3px 3px;
+  user-select: none; }
+
+.dot-container {
+  text-align: center;
+  padding: 20px; }
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; }
+
+.active, .dot:hover {
+  background-color: #4fb55e; }
 
 /* Universal */
 h1, h2, h3, h4, h5, h6 {
