@@ -1,10 +1,10 @@
 <?php
 
 //Local Database
-$server="localhost";
-$user="root";
-$pw="";
-$db="lifeline_robotics";
+$server="mysql36.unoeuro.com";
+$user="sej_one";
+$pw="knGm9hy5HBbp";
+$db="sej_one_db_lifeline";
 
 
 // Create Connection

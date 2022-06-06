@@ -65,7 +65,7 @@ include 'conn.php';
         </div>
         <div>
             <h3>Tractions</h3> 
-            <h4 class="count" data-target="33">0</h4>
+            <h4 class="count" data-target="1000">0</h4>
             <p>Text</p>
         </div>
         <div>
