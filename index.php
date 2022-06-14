@@ -61,15 +61,15 @@ include 'conn.php';
         <div>
            <h3>Since year</h3> 
            <h4 class="count" data-target="2020">0</h4>
-           <p>Text</p>
+           <p>Have we Exsisted!</p>
         </div>
         <div>
-            <h3>Tractions</h3> 
-            <h4 class="count" data-target="1000">0</h4>
-            <p>Text</p>
+            <h3>Tested People</h3> 
+            <h4 class="count" data-target="204">0</h4>
+            <p>This many people have we tested!</p>
         </div>
         <div>
-            <h3>Sample</h3> 
+            <h3>Partners</h3> 
             <h4 class="count" data-target="8000">0</h4>
             <p>Text</p>
         </div>
