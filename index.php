@@ -59,18 +59,18 @@ include 'conn.php';
     <div class="grid-box3">
         <h2>Quick Numbers</h2>
         <div>
-           <h3>Since year</h3> 
-           <h4 class="count" data-target="2020">0</h4>
-           <p>Have we Exsisted!</p>
+           <h3>Awarded</h3> 
+           <h4 class="count" data-target="7">0</h4>
+           <p>Grants</p>
         </div>
         <div>
-            <h3>Tested People</h3> 
-            <h4 class="count" data-target="204">0</h4>
-            <p>This many people have we tested!</p>
+            <h3>Raised</h3> 
+            <h4 class="count" data-target="6000000">0</h4>
+            <p>From various sources</p>
         </div>
         <div>
-            <h3>Partners</h3> 
-            <h4 class="count" data-target="8000">0</h4>
+            <h3>Softfunding</h3> 
+            <h4 class="count" data-target="1000000">0</h4>
             <p>Text</p>
         </div>
     </div><!-- Numbers -->
