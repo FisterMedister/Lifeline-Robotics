@@ -23,7 +23,7 @@ include 'conn.php';
 
     <div class="grid-box1">
         <video controls autoplay muted
-        src="src/video/lifeline_animation.mp4" autoplay="true" type="video/mp4" 
+        src="src/video/lifeline_animation_new.mp4" autoplay="true" type="video/mp4" 
         video>
     </div><!-- Video Box -->
 
@@ -71,13 +71,13 @@ include 'conn.php';
         <div>
             <h3>Softfunding</h3> 
             <h4 class="count" data-target="1000000">0</h4>
-            <p>Text</p>
+            <p>DKK</p>
         </div>
     </div><!-- Numbers -->
 
     <div class="grid-box4">
         <h3>If you want to see more, then check out our Pitch Deck!</h3>
-        <a href="src/pdf/pitch_deck.pdf"><button><img src="src/img/pdf.png" alt="PDF"></button></a>
+        <a href="src/pdf/pitch_deck2.pdf"><button><img src="src/img/pdf.png" alt="PDF"></button></a>
     </div><!-- PDF -->
 
     </div><!-- First Section Grid -->
