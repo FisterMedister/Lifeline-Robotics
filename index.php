@@ -77,7 +77,7 @@ include 'conn.php';
 
     <div class="grid-box4">
         <h3>If you want to see more, then check out our Pitch Deck!</h3>
-        <a href="src/pdf/pitch_deck2.pdf"><button><img src="src/img/pdf.png" alt="PDF"></button></a>
+        <a href="src/pdf/pitch_deck3.pdf"><button><img src="src/img/pdf.png" alt="PDF"></button></a>
     </div><!-- PDF -->
 
     </div><!-- First Section Grid -->
